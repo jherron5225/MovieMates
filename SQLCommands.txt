@@ -1,0 +1,22 @@
+CREATE TABLE users (
+  id int(20) NOT NULL AUTO_INCREMENT,
+  username varchar(2000),
+  password varchar(2000),
+  firstname varchar(2000),
+  lastname varchar(2000),
+  email varchar(2000),
+  description varchar(5000),
+  phonenumber varchar(2000),
+  city varchar(2000),
+  state varchar(2000),
+  genre varchar(2000),
+  image varchar(2000);
+  PRIMARY KEY (id)
+);
+
+
+CREATE TABLE usernames (
+  id int(20) NOT NULL AUTO_INCREMENT,
+  username varchar(2000),
+  PRIMARY KEY (id)
+);
